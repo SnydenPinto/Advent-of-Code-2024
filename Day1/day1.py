@@ -1,9 +1,9 @@
 from collections import Counter
+from helper import read_input
 
-def read_and_sort(filename):
-    with open(filename, 'r') as file:
-        data = [tuple(map(int, line.split())) for line in file]
 
+
+def sort_data(data):
     left_column = sorted(pair[0] for pair in data)
     right_column = sorted(pair[1] for pair in data)
     return left_column, right_column
@@ -19,7 +19,8 @@ def calculate_similarity_score(left, right):
 
 
 if __name__ == "__main__":
-    left, right = read_and_sort('input')
+    data = read_input('day1_input')
+    left, right = sort_data(data)
     distance = calculate_total_distance(left, right)
     similarity_score = calculate_similarity_score(left,right)
 
