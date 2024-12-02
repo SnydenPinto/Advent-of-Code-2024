@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d39e-9dd7-4f14-a22d-a6bc83c166ab" name="Changes" comment="day one part two solution, improved">
-      <change afterPath="$PROJECT_DIR$/Day 2/day2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 2/day2_input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper.py" afterDir="false" />
+    <list default="true" id="7062d39e-9dd7-4f14-a22d-a6bc83c166ab" name="Changes" comment="day 2 part one">
+      <change afterPath="$PROJECT_DIR$/Day 2/day2_partTwo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/day1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/day1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/input" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/day1_input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 2/day2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/day2_partOne.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 2/day2_input" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/day2_input" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,8 @@
     "Python.day1.executor": "Run",
     "Python.day1partTwo.executor": "Run",
     "Python.day2.executor": "Run",
+    "Python.day2_partOne.executor": "Run",
+    "Python.day2_partTwo.executor": "Run",
     "Python.helper.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -106,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733160955102</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="day 2 part one">
+      <option name="closed" value="true" />
+      <created>1733169995208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733169995208</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -114,6 +122,7 @@
     <MESSAGE value="day one part one solution" />
     <MESSAGE value="day one part two solution" />
     <MESSAGE value="day one part two solution, improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="day one part two solution, improved" />
+    <MESSAGE value="day 2 part one" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 2 part one" />
   </component>
 </project>
