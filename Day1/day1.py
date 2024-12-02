@@ -1,5 +1,4 @@
-from collections import defaultdict
-
+from collections import Counter
 
 def read_and_sort(filename):
     with open(filename, 'r') as file:
@@ -14,16 +13,9 @@ def calculate_total_distance(left_column, right_column):
     return sum(abs(left - right) for left, right in zip(left_column, right_column))
 
 def calculate_similarity_score(left, right):
-    frequency_map = defaultdict(int)
+    frequency_map = Counter(right)
 
-    for num in right:
-        frequency_map[num] += 1
-
-    score = 0
-    for num in left:
-        score += num * frequency_map[num]
-
-    return  score
+    return sum(num * frequency_map[num] for num in left)
 
 
 if __name__ == "__main__":
