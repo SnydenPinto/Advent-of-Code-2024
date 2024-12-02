@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7062d39e-9dd7-4f14-a22d-a6bc83c166ab" name="Changes" comment="initialize">
-      <change afterPath="$PROJECT_DIR$/Day1/day1partOne.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day1/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7062d39e-9dd7-4f14-a22d-a6bc83c166ab" name="Changes" comment="day one part one solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/day1partOne.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/day1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.day1.executor": "Run",
+    "Python.day1partTwo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -77,11 +76,20 @@
       <option name="project" value="LOCAL" />
       <updated>1733157065492</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day one part one solution">
+      <option name="closed" value="true" />
+      <created>1733158981295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733158981295</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialize" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialize" />
+    <MESSAGE value="day one part one solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="day one part one solution" />
   </component>
 </project>
